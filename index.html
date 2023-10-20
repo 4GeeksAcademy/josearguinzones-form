@@ -9,10 +9,10 @@
 </head>
 <body>
 
-    <div class="container">
+    <div class="container border">
 
             
-                <div class="row p-5">
+                <div class="row py-3">
                     <div class="alert alert-secondary" role="alert">
                         <h1> Payment for example </h1>
                     </div>
@@ -21,7 +21,7 @@
                     </div>
                     
                 </div>
-                <form class="row g-3 p-5">
+                <form class="row g-3 ">
                     <div class="col-4">
                       <label for="inputcard" class="form-label">Card#</label>
                       <input type="text" class="form-control" id="inputcard " placeholder="XXXXXXXXXXXXXXXXX">
@@ -33,7 +33,7 @@
                     </div>
 
 
-                    <div class="col-md-4 position-relative">
+                    <div class="col-md-5 position-relative">
                         <label for="validationTooltipAmount" class="form-label">Amount</label>
                         <div class="input-group has-validation">
                           <span class="input-group-text" id="validationTooltipAmountPrepend">$</span>
@@ -101,18 +101,13 @@
 
                       <div class="alert alert-secondary" role="alert">
                 
-                        <div class="col-6"></div>
-                        <div class="col-6">
-                          <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
-                            <label class="form-check-label" for="invalidCheck2">
-                              Agree to terms and conditions
-                            </label>
-                          </div>
-                        </div>
+
                         
-                        <div class="col-6">
-                          <button class="btn btn-primary" type="submit">Submit form</button>
+                        
+
+                        <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                          <button type="button" class="btn btn-secondary">Cancel</button>
+                          <button type="button" class="btn btn-primary">Sumbit</button>
                         </div>
                     </div>
 
